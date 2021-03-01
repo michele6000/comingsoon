@@ -1,5 +1,2 @@
-FROM node:latest
-ENV TZ=Europe/Rome
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-EXPOSE 3000
-RUN http-server .
+FROM httpd:2.4
+COPY ./public-html/ /usr/local/apache2/htdocs/
