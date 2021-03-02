@@ -25,7 +25,7 @@
           var endMonth = 3;
           var endDate = 2;
           var endHours = 14;
-          var endMinutes = 15;
+          var endMinutes = 40;
           var endSeconds = 0;
 
           if(tZ == "") {
