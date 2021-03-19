@@ -23,9 +23,9 @@
           var tZ = options.timeZone; console.log(tZ);
           var endYear = 2021;
           var endMonth = 3;
-          var endDate = 2;
-          var endHours = 14;
-          var endMinutes = 40;
+          var endDate = 22;
+          var endHours = 8;
+          var endMinutes = 30;
           var endSeconds = 0;
 
           if(tZ == "") {
